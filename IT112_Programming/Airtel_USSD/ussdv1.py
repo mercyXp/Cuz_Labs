@@ -1,4 +1,5 @@
 # AIRTEL USSD SIMULATION
+
 print("Welcome to Airtel Services\nDial *117# to get started")
 ussd_code = input("Enter: ")
 
@@ -617,12 +618,12 @@ if ussd_code == "*117#":
 
         if sub_choice == "9":
             print(
-                "Welcome to Airtel International Services"
-                "1.One Airtel Roaming"
-                "2.Global Roaming"
-                "3.International Voice Calling"
-                "4.Balance Check"
-                "5.Zambia Tourist Pack"
+                "Welcome to Airtel International Services\n"
+                "1.One Airtel Roaming\n"
+                "2.Global Roaming\n"
+                "3.International Voice Calling\n"
+                "4.Balance Check\n"
+                "5.Zambia Tourist Pack\n"
             )
             sub_sub_choice = input("Enter Option: ")
 
@@ -640,11 +641,26 @@ if ussd_code == "*117#":
                     "3.buy for other\n"
                     "4.00 Back\n"
                 )
-            if sub_sub_choice == "2": 
+            if sub_sub_choice == "3": 
                 print(
                     "1.buy bundles\n"
                     "2.buy for other\n"
                     "3.00 Back\n"
+                )
+            if sub_sub_choice == "4":
+                print(
+                    "Please Select:\n"
+                    "1.One Airtel Roaming\n"
+                    "2.Global Roaming\n"
+                    "3.International Voice Calling\n"
+                    "00 Back\n"
+            )
+            if sub_sub_choice == "5":
+                print(
+                    "Welcome to Zambia! Get 250 local mins, 250SMS,10GB,K100 for international calls @ K350 valid 14days."
+                    "1.Subscribe"
+                    "2.Check Balance"
+                    "00 Back"
                 )
         elif sub_choice == "0":
                 print("Returning to the main menu")
