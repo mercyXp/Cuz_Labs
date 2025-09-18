@@ -33,4 +33,8 @@ By completing this task, students will be able to:
 3. Run the script with:  
 
 ```bash
-python ussd_simulation.py
+python ussdv1.py
+
+python ussdv2.py
+
+python ussdv3.py
