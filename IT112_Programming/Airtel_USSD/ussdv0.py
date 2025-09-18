@@ -626,13 +626,28 @@ if ussd_code == "*117#":
             )
             sub_sub_choice = input("Enter Option: ")
 
-            if sub_sub_choice == "1":
-                #distination coutries
-                #buy bundles
-                #buy for other
-                #00Back
+            if sub_sub_choice == "1":                
+                print(# One Airtel Roaming
+                    "1.distination coutries\n"
+                    "2.buy bundles\n"
+                    "3.buy for other\n"
+                    "4.00 Back\n"
+                )
+            if sub_sub_choice == "2": 
+                print(# Global Roaming
+                    "1.distination coutries\n"
+                    "2.buy bundles\n"
+                    "3.buy for other\n"
+                    "4.00 Back\n"
+                )
+            if sub_sub_choice == "2": 
+                print(
+                    "1.buy bundles\n"
+                    "2.buy for other\n"
+                    "3.00 Back\n"
+                )
         elif sub_choice == "0":
-            print("Returning to the main menu")
+                print("Returning to the main menu")
         else:
             print("Invalid Option")
         exit
