@@ -1,9 +1,6 @@
-t = (2,4,6,8,10)
-# swapping using unpacking
+t = (5,10)
 
-a , b , c , d , e = t
+x, y = t
+x,y = y,x 
+print(x,y)
 
-a = b
-b = a
-print(a)
-print(b)
